@@ -1,0 +1,32 @@
+.nav {
+  text-align: center;
+}
+
+.nav img {
+  height: 70px;
+  width: 190px;
+}
+
+.navbar ul {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  line-height: 35px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 3px 12px;
+  margin-right: 20px;
+  font-weight: 500;
+  color: white;
+}
+.navbar ul li a:hover {
+  border-radius: 15px;
+  color: black;
+  background-color: #fff;
+}
